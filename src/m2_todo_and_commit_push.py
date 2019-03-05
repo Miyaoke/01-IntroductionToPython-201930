@@ -16,7 +16,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #   (Yes, that means for YOU to DO things per these instructions:)
 #
 #   Run this module by right clicking anywhere in this window
@@ -32,7 +32,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Notice the small horizontal BLUE bars on the scrollbar-like thing
 #   on the right.  Each blue bar indicates a thing TO-DO in this module.
 #
@@ -86,7 +86,7 @@ print('My name is Eri')
 print( 3607 * 34227 )
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   Look at the list of files in the Project window (to the left).
 #   Note that this file:
 #      m2_todo_and_commit_push.py
