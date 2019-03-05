@@ -136,7 +136,7 @@ kamekichi.forward(100)
 kamekichi.right(360)
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -160,7 +160,12 @@ kamekichi.right(360)
 #   As always, test by running the module.
 #
 ###############################################################################
-
+natasha = rg.SimpleTurtle()
+boris = rg.SimpleTurtle()
+boris.pen = rg.Pen('yellow',100)
+natasha.pen = rg.Pen('green',50)
+natasha.forward(150)
+boris.forward(100)
 ###############################################################################
 #
 # TODO: 6.
