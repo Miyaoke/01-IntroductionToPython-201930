@@ -29,7 +29,8 @@ print(answer * 100)
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 import math
-print( math.cos(2.75) + 77 )
+x = math.cos(2.75) + 77
+print( math.sqrt(x) )
 ###############################################################################
 # DONE: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
@@ -41,7 +42,7 @@ import math
 ans = ( 41 * 88 ) + ( 4 * math.cos(2.75))
 print( math.sqrt(ans) )
 ###############################################################################
-# TODO: 4.
+# DONE: 4.
 #   Immediately below this _TODO_,
 #   write code that computes the square root of 2 in two ways:
 #     - By using the   math.sqrt   function.
@@ -49,8 +50,9 @@ print( math.sqrt(ans) )
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-print()
-
+import math
+print( math.sqrt(2) )
+print( pow(2,0.5))
 ###############################################################################
 # TODO: 5.
 #   Every object has a TYPE and a VALUE.  For example,
@@ -91,7 +93,17 @@ print()
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
-
+print(type("hello"))
+print(type('hello'))
+print(type('a b c'))
+print(type( 3 + 3 ))
+print(type("3" + "3"))
+print(type( 2 ** 100 ))
+print(type(math.sin(8)))
+print(type(math.sin))
+print(type(print))
+print(type(math))
+print(type('math'))
 ###############################################################################
 #
 # TODO: 6.
