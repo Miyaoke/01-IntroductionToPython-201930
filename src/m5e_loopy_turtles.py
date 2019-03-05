@@ -91,4 +91,7 @@ for k in range(500):
     another_turtle.left(91)
     another_turtle.forward(k)
 
+for l in range(1000):
+    blue_turtle.right(100)
+    blue_turtle.forward(80)
 window.close_on_mouse_click()
