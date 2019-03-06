@@ -47,7 +47,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 import rosegraphics as rg
 window = rg.TurtleWindow()
 kamesanjiro = rg.SimpleTurtle('turtle')
-kamesanjiro.pen = rg.Pen('blue',10)
+kamesanjiro.pen = rg.Pen('blue')
 kamesanjiro.forward(200)
 kamesanjiro.pen_up()
 kamesanjiro.go_to(rg.Point(100,-40))
@@ -56,6 +56,8 @@ kamesanjiro.pen = rg.Pen('green',10)
 kamesanjiro.right(90)
 kamesanjiro.forward(150)
 window.close_on_mouse_click()
+
+i
 
 
 
