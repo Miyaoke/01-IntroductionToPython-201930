@@ -50,6 +50,13 @@ kamesanjiro = rg.SimpleTurtle('turtle')
 kamesanjiro.pen = rg.Pen('blue',10)
 kamesanjiro.forward(200)
 kamesanjiro.pen_up()
-kamesanjiro.go_to(100, -40)
+kamesanjiro.go_to(rg.Point(100,-40))
+kamesanjiro.pen_down()
+kamesanjiro.pen = rg.Pen('green',10)
+kamesanjiro.right(90)
+kamesanjiro.forward(150)
+
+
+
 
 
